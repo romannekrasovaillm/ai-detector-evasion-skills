@@ -1,0 +1,13 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ai-detection",
+  "version": "1.0.0",
+  "description": "ai-detection: 3 скилла. Детекция и обход детекторов AI-генерированного контента и стилометрической атрибуции: ai-text-detector-evasion (как работают детекторы текста — perplexity/burstiness, обученные классификаторы, водяные знаки; методы обхода — парафраз-атаки DIPPER/рекурсивный парафраз, температурные возмущения, инжекция ошибок, стилометрия; оценка эффективности), ai-code-detector-evasion (стилометрия кода, perplexity/perturbation-детекторы, CodeVision, watermarking токенов; методы обхода и их пределы), native-language-masking (маскировка L1-подписи носителя русского: NLI-классификаторы, чек-лист русских интерференций в английском, процедура переписывания, анонимизация авторского стиля).",
+  "keywords": [
+    "ai-detection",
+    "detector",
+    "evasion",
+    "stylometry",
+    "watermark"
+  ]
+}
